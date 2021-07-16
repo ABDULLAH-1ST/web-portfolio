@@ -1,0 +1,68 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.orange-highliter{
+    color: orange;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 100%;
+    
+}
+.top-section{
+    background-image:url(images/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(45deg, orange, red);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.mid-area{
+    background-image: url(images/dream-bg.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 300px;
+}
+.footer-content{
+    height: 500px;
+}
+.footer-blog{
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    padding-left: 32px;
+    margin-top: 50px;
+}
+
+.footer-content{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-image-slice: 1;
+    
+}
+#baby-slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,rgb(122, 246, 255),rgb(21, 97, 141));
+    border-image-slice: 1;
+    
+}
